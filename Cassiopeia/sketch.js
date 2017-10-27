@@ -1,7 +1,8 @@
 /*
+Written in the Stars
 Emma Brito and Kylie Caraway
 Digital Futures 2017
-Creation and Computation Course
+Creation and Computation Course DIGF-6037-001
 
 -Resources-
 Referenced Star Field: https://codepen.io/maxpowa/pen/VKXmrW
@@ -28,7 +29,7 @@ var img; //// constellation image variable
 
 function setup() {
   createCanvas(WIDTH, HEIGHT);
-img =loadImage("assets/Cassiopeiaphoto.jpg");
+img =loadImage("assets/Cassiopeiaphoto.jpg");//load image of constellation from assets
 
 
   // Push stars to array
