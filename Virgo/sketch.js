@@ -1,8 +1,8 @@
 /*
+Written in the Stars
 Emma Brito and Kylie Caraway
 Digital Futures 2017
-Creation and Computation Course
-
+Creation and Computation Course DIGF-6037-001
 -Resources-
 Referenced Star Field: https://codepen.io/maxpowa/pen/VKXmrW
 Gyroscope Code: http://coursescript.com/notes/interactivecomputing/mobile/gyroscope/
@@ -28,7 +28,7 @@ var img; //// constellation image variable
 
 function setup() {
   createCanvas(WIDTH, HEIGHT);
-img =loadImage("assets/Virgophoto.jpg");
+img =loadImage("assets/Virgophoto.jpg"); // upload constellation image from assets
 
 
   // Push stars to array
